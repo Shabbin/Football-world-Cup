@@ -107,7 +107,26 @@ body {
     display: flex;
 
 
+
 }
+
+
+
+
+.transfer-info {
+    margin-left: 20px;
+}
+
+.transfer-info p {
+
+    color: #161616;
+
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 600;
+
+}
+
 
 .transferings {
     display: grid;
@@ -116,10 +135,28 @@ body {
     margin-left: 44px;
 }
 
+.transfer-button {
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.transfer-button button {
+    width: 100px;
+    height: 32px;
+    border-radius: 5px;
+    border: 1px solid #161616;
+    font-size: 16px;
+    font-weight: 500;
+    color: #161616;
+}
+
 .icons {
     display: flex;
+    margin-bottom: 24px;
+    margin-left: 20px;
 
 }
+
 
 .chat-icon {
     margin-left: 30px;
