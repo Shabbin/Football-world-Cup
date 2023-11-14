@@ -1,0 +1,130 @@
+body {
+
+    font-family: 'Inter', sans-serif;
+    font-family: 'Inter Tight', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Header starts */
+.football-body {
+    display: flex;
+    align-items: flex-start;
+    position: relative;
+    background-color: #161616;
+    border-radius: 30px;
+    width: 100%;
+
+
+}
+
+.info-des {
+
+    text-align: justify;
+    margin-left: 80px;
+}
+
+.head-section {
+    color: #FFF;
+    font-size: 70px;
+}
+
+.paragraph {
+
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: -40px;
+
+
+}
+
+.anchor-move {
+    margin-top: 40px;
+}
+
+.anchoring {
+    text-decoration: none;
+    border-radius: 5px;
+    background-color: #D00;
+    padding: 16px 25px;
+    gap: 10px;
+    color: #FFF;
+
+}
+
+.starplayer {
+    margin-right: 200px;
+    margin-left: 240px;
+    margin-top: 30px;
+
+}
+
+.starplayer img {
+
+    width: 400px;
+    height: 500px;
+
+
+}
+
+/* Header Ends */
+.navigations {
+    background-color: #161616;
+    width: 312px;
+    height: 312px;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 100px;
+}
+
+
+.size {
+    font-size: 17px;
+    font-weight: 500;
+}
+
+
+
+
+.about-match {
+    width: 190px;
+    height: 64px;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: -10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    background-color: #FFF;
+}
+
+.about-match:hover {
+
+    background-color: #D00;
+    color: #FFF;
+}
+
+.contents {
+    display: flex;
+
+
+}
+
+.transferings {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 100px;
+    margin-left: 44px;
+}
+
+.icons {
+    display: flex;
+
+}
+
+.chat-icon {
+    margin-left: 30px;
+}
+
+.clock-seperate {
+    margin-left: 10px;
+}
