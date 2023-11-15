@@ -70,6 +70,13 @@ body {
     margin-top: 40px;
 }
 
+.anchor-move:hover .special-arrow {
+
+    padding: 5px;
+
+}
+
+
 .arrow {
     margin-left: 10px;
 }
