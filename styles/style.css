@@ -29,7 +29,9 @@ body {
     margin-bottom: 20px;
     margin-left: 20px;
     animation: animate 3s linear-infinite;
+
 }
+
 
 
 
@@ -54,12 +56,19 @@ body {
     font-size: 14px;
     font-weight: 100;
     margin-top: -40px;
+    transition: width 2s;
 
 
 }
 
 .anchor-move {
     margin-top: 40px;
+}
+
+.anchor-move:hover .special-arrow {
+
+    padding: 5px;
+
 }
 
 .arrow {
