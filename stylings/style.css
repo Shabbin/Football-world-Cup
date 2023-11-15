@@ -6,6 +6,16 @@ body {
 
 }
 
+
+
+
+
+
+
+
+
+
+
 /* Header starts */
 .football-body {
     display: flex;
@@ -20,6 +30,16 @@ body {
 
 
 }
+
+.ball {
+
+    width: 50px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    animation: animate 3s linear-infinite;
+}
+
+
 
 .info-des {
 
