@@ -350,15 +350,14 @@ hr {
     }
 
     .personal-info {
-
+        margin-top: 15px;
         display: flex;
         flex-direction: column;
-        justify-content: space-evenly;
-        width: 375px;
-        height: 412px;
-        margin-top: -10px;
+        align-items: center;
         font-size: 14px;
         color: #B9B9B9;
+        margin-left: 10px;
+
 
 
     }
@@ -366,5 +365,9 @@ hr {
     .logo {
         margin-left: 35px;
         font-size: 22px;
+    }
+
+    .footer-infos {
+        margin-top: 15px;
     }
 }
