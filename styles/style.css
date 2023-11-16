@@ -65,7 +65,7 @@ body {
     margin-top: 40px;
 }
 
-.anchor-move:hover .special-arrow {
+.anchoring:hover .special-arrow {
 
     padding: 5px;
 
@@ -252,4 +252,89 @@ hr {
     opacity: 40%;
     margin-left: 24px;
     margin-left: 24px;
+}
+
+@media only screen and (max-width:688px) {
+    body {
+        width: 100%;
+    }
+
+    .football-body {
+        color: tomato;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .head-section {
+        font-size: 22px;
+        line-height: 38px;
+    }
+
+    .paragraph {
+        margin-top: 20px;
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    .anchor-move {
+        display: inline-flex;
+        padding: 8px 12px;
+        align-items: flex-start;
+        gap: 10px;
+    }
+
+    .starplayer {
+        width: 50%;
+    }
+
+    .starplayer img {
+        width: 233px;
+        height: 245px;
+        margin-top: -100px;
+    }
+
+    .contents {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .navigations {
+        border: 0;
+        background-color: #FFF;
+        margin-right: -220px;
+        margin-top: -0.1px;
+    }
+
+    .about-match {
+        border: none;
+    }
+
+    .about-match:hover:hover {
+        background-color: #D00;
+    }
+
+    .navigations h1 {
+        margin-bottom: 25px;
+        margin-left: 40px;
+    }
+
+    .size {
+        font-size: 20px;
+    }
+
+    .transferings {
+        display: flex;
+        flex-direction: column;
+        margin-top: -40px;
+    }
+
+    .transfer-info p {
+        padding: 10px;
+    }
+
+    .icons {
+        margin-top: -10px;
+        padding: 10px;
+    }
 }
