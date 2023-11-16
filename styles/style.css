@@ -300,11 +300,16 @@ hr {
     }
 
     .navigations {
-        border: 0;
+
         background-color: #FFF;
-        margin-right: -220px;
-        margin-top: -0.1px;
+
+        margin-top: 10px;
+        margin-bottom: 10px;
+        background-size: 20%;
+
     }
+
+
 
     .about-match {
         border: none;
@@ -326,7 +331,7 @@ hr {
     .transferings {
         display: flex;
         flex-direction: column;
-        margin-top: -40px;
+        margin-top: -2px;
     }
 
     .transfer-info p {
@@ -336,5 +341,30 @@ hr {
     .icons {
         margin-top: -10px;
         padding: 10px;
+    }
+
+    .footer {
+        background: #161616;
+        width: 375px;
+        height: 412px;
+    }
+
+    .personal-info {
+
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        width: 375px;
+        height: 412px;
+        margin-top: -10px;
+        font-size: 14px;
+        color: #B9B9B9;
+
+
+    }
+
+    .logo {
+        margin-left: 35px;
+        font-size: 22px;
     }
 }
